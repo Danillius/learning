@@ -5,11 +5,12 @@ body {
   height: 100%;
 }
 header {
-  height: 4.3em;
+  height: 60px;
   width: 100%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 15px;
+  box-sizing: inherit;
 }
 
 header p {
@@ -35,6 +36,7 @@ header span {
   position: absolute;
   left: 90%;
   float: right;
+  
 }
 
 article {
@@ -51,7 +53,7 @@ aside {
   border: 1px, solid, crimson;
   width: 100px;
   height: 80%;
-  text-align: left;
+  text-align: justify;
   position: relative;
 }
 
@@ -65,7 +67,8 @@ article img {
   width: 65em;
   height: 42em; 
   position: relative;
-  left: 30em;
+  left: 20em;
+  padding-bottom: 2em;
 }
 
 article p {
@@ -91,6 +94,8 @@ footer {
 
 .front_left {
   display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
   position: absolute;
   float: left;
   margin-left: auto;
@@ -98,11 +103,13 @@ footer {
   left: 5%;
   text-align: left;
   text-decoration: underline;
-  bottom: 2em;
+  bottom: 4em;
 }
 
 .front_right {
   display: inline-block;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
   position: absolute;
   float: right;
   text-align: right;
@@ -112,7 +119,7 @@ footer {
   margin-left: auto;
   margin-bottom: 0;
   text-decoration: underline;
-  bottom: 2em;
+  bottom: 4em;
 }
 
 footer span button {
