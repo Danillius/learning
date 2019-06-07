@@ -1,15 +1,16 @@
-
 body {
   margin: 0;
   display: block;
   height: 100%;
+  /* overflow-x: hidden; */
 }
+
 header {
   height: 60px;
   width: 100%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 15px;
+  padding: 20px;
   box-sizing: inherit;
 }
 
@@ -17,7 +18,7 @@ header p {
   top: 25px;
   display: inline-block;
   text-align: left;
-  font-size: 16px;
+  font-size: 1em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   position: absolute;
   left: 10px;
@@ -35,13 +36,12 @@ header span {
   background-color: aliceblue;
   position: absolute;
   left: 90%;
-  float: right;
-  
+  float: right;  
 }
 
 article {
   position: relative;
-  display: inline-block;
+  display: block;
   left: 5%;
   width: auto;
   position: center;
@@ -51,10 +51,14 @@ article {
 aside {
   float: left;
   border: 1px, solid, crimson;
-  width: 100px;
+  width: 10em;
   height: 80%;
   text-align: justify;
   position: relative;
+}
+
+aside ul {
+  in;
 }
 
 .hover:hover {
@@ -65,7 +69,7 @@ aside {
 article img {
   display: inline-block;
   width: 65em;
-  height: 42em; 
+  height: 42em;
   position: relative;
   left: 20em;
   padding-bottom: 2em;
@@ -79,8 +83,9 @@ article p {
   height: auto;
   left: 40em;
   top: auto;
-  display: block;
+  display: inline-block;
 }
+
 footer {
   height: 4em;
   display: block;
@@ -89,7 +94,6 @@ footer {
   background-color: brown;
   clear: both;
   bottom: 0em;
-
 }
 
 .front_left {
@@ -136,9 +140,12 @@ footer span button {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  cursor: pointer !important;
   position: absolute;
   bottom: 0;
-  left: 0em;
+  left: 0;
   display: block;
+}
+button:hover {
+   cursor: pointer;
+   color: ghostwhite;
 }
