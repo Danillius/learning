@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  display: block;
-  height: 98%;
-  width: auto;
+  display: relative;
+  height: 100%;
+  width: 100%;
   / * overflow-x: hidden;
   */
 }
@@ -50,7 +50,19 @@ label {
   border: #000000;
 }
 
-label input {}
+aside {
+  float: left;
+  border: 1px, solid, crimson;
+  width: 10em;
+  height: 100%;
+  text-align: justify;
+  position: relative;
+}
+
+aside ul {
+  height: 100%;
+  position: static;
+}
 
 article {
   position: relative;
@@ -83,41 +95,26 @@ article img {
   padding-bottom: 2em;
 }
 
-aside {
-  float: left;
-  border: 1px, solid, crimson;
-  width: 10em;
-  height: 100%;
-  text-align: justify;
-  position: relative;
-}
-
-aside ul {
-  height: 100%;
-  position: static;
-}
-
 .hover:hover {
   color: indigo;
   cursor: pointer;
 }
 
-
-
 #footer {
-  height: 80px;
+  height: 70px;
+  width: 100%;
   display: block;
   margin-bottom: 0;
-  position: inherit;
+  position: absolute;
   background-color: crimson;
   clear: both;
-  bottom: 50px;
+  bottom: 0;
 }
 
 .front_left {
   display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+  padding-top: 15px;
+  padding-bottom: 10px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
@@ -129,8 +126,8 @@ aside ul {
 
 .front_right {
   display: inline-block;
-  padding-top: 1em;
-  padding-bottom: 0.5em;
+  padding-top: 15px;
+  padding-bottom: 10px;
   position: absolute;
   text-align: right;
   right: 5%;
@@ -142,12 +139,17 @@ aside ul {
   bottom: 4em;
 }
 
-aside span button {
+#footer button {
+  position: absolute;
+  left: 0;
+  display: block;
+  bottom: 0;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
   font-weight: 500;
   letter-spacing: 2px;
-  color: rgba(240, 6, 6, 0.8);
+  color: white;
+  background-color: #00000;
   border-radius: 15px;
   height: 40px;
   width: 120px;
@@ -156,13 +158,9 @@ aside span button {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  position: relative;
-  bottom: 0;
-  left: 0;
-  display: block;
 }
 
 button:hover {
   cursor: pointer;
-  color: ghostwhite;
+  color: black;
 }
