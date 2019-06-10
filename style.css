@@ -65,9 +65,10 @@ aside {
     position: relative;
 }
 
-aside ul {
+aside ol {
     height: 100%;
-    position: static;
+    position: absolute;
+    width: 300px;
 }
 
 article {
@@ -76,6 +77,14 @@ article {
     left: 25%;
     width: auto;
     float: left;
+}
+
+.Lane {
+    float: right;
+    display: block;
+    left: 30%;
+    top: 15%;
+    position: relative;
 }
 
 article p {
