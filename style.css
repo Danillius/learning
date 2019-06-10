@@ -1,13 +1,15 @@
 body {
   margin: 0;
   display: block;
-  height: 100%;
-  /* overflow-x: hidden; */
+  height: 98%;
+  width: auto;
+  / * overflow-x: hidden;
+  */
 }
 
 header {
   height: 60px;
-  width: 100%;
+  width: 97.9%;
   position: relative;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
@@ -36,29 +38,63 @@ header span {
   background-color: aliceblue;
   position: absolute;
   left: 90%;
-  float: right;  
+  float: right;
 }
+
+label {
+  position: absolute;
+  left: 70%;
+  top: 25px;
+  padding: 19px;
+  color: #920000d7;
+  border: #000000;
+}
+
+label input {}
 
 article {
   position: relative;
   display: block;
-  left: 5%;
+  left: 25%;
   width: auto;
-  position: center;
   float: left;
+}
+
+article p {
+  position: absolute;
+  text-align: justify;
+  box-flex: left;
+  margin: 2%;
+  width: auto;
+  height: auto;
+  left: 40em;
+  top: 10%;
+  display: block;
+  float: left;
+}
+
+article img {
+  display: block;
+  top: 20%;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 20%;
+  padding-bottom: 2em;
 }
 
 aside {
   float: left;
   border: 1px, solid, crimson;
   width: 10em;
-  height: 80%;
+  height: 100%;
   text-align: justify;
   position: relative;
 }
 
 aside ul {
-  in;
+  height: 100%;
+  position: static;
 }
 
 .hover:hover {
@@ -66,34 +102,16 @@ aside ul {
   cursor: pointer;
 }
 
-article img {
-  display: inline-block;
-  width: 65em;
-  height: 42em;
-  position: relative;
-  left: 20em;
-  padding-bottom: 2em;
-}
 
-article p {
-  position: relative;
-  text-align: justify;
-  margin: 0.5%;
-  width: auto;
-  height: auto;
-  left: 40em;
-  top: auto;
-  display: inline-block;
-}
 
-footer {
-  height: 4em;
+#footer {
+  height: 80px;
   display: block;
   margin-bottom: 0;
-  position: relative;
-  background-color: brown;
+  position: inherit;
+  background-color: crimson;
   clear: both;
-  bottom: 0em;
+  bottom: 50px;
 }
 
 .front_left {
@@ -101,7 +119,6 @@ footer {
   padding-top: 1em;
   padding-bottom: 0.5em;
   position: absolute;
-  float: left;
   margin-left: auto;
   margin-right: auto;
   left: 5%;
@@ -115,7 +132,6 @@ footer {
   padding-top: 1em;
   padding-bottom: 0.5em;
   position: absolute;
-  float: right;
   text-align: right;
   right: 5%;
   margin-right: auto;
@@ -126,7 +142,7 @@ footer {
   bottom: 4em;
 }
 
-footer span button {
+aside span button {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: large;
   font-weight: 500;
@@ -140,12 +156,13 @@ footer span button {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
-  position: absolute;
+  position: relative;
   bottom: 0;
   left: 0;
   display: block;
 }
+
 button:hover {
-   cursor: pointer;
-   color: ghostwhite;
+  cursor: pointer;
+  color: ghostwhite;
 }
