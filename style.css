@@ -71,7 +71,7 @@ aside ul {
 }
 
 article {
-    position: relative;
+    position: absolute;
     display: block;
     left: 25%;
     width: auto;
@@ -79,26 +79,27 @@ article {
 }
 
 article p {
-    position: absolute;
+    position: relative;
     text-align: justify;
     box-flex: left;
     margin: 2%;
     width: auto;
     height: auto;
-    left: 40em;
-    top: 10%;
+    left: 8%;
+    top: 20px;
     display: block;
     float: left;
 }
 
 article img {
     display: inline-block;
-    position: absolute;
-    top: 80%;
+    position: relative;
+    float: right;
     width: 500px;
     height: 300px;
-    left: 20%;
-    padding-bottom: 2em;
+    right: 40%;
+    top: 45px;
+    padding-top: 0;
 }
 
 .hover:hover {
@@ -172,5 +173,7 @@ article img {
 #footer button:hover {
     cursor: pointer;
     color: #000000;
-    background-color: #920000d7;
+    background-color: #ffffff;
 }
+
+#audio {}
