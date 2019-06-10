@@ -3,7 +3,7 @@ body {
     display: relative;
     height: 100%;
     width: 100%;
-    / * overflow-x: hidden;
+    /* overflow-x: hidden;
     */
 }
 
@@ -17,35 +17,35 @@ header {
 }
 
 header p {
-    top: 25px;
+    top: 40px;
     display: inline-block;
     text-align: left;
     font-size: 1em;
     color: #920000d7;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
-    left: 10px;
-    margin: 1%;
+    left: 5%;
+    margin: 0;
 }
 
 header span {
     display: inline-block;
-    top: 25px;
+    top: 40px;
     text-align: left;
     font-size: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #920000d7;
-    margin: 1%;
+    margin: 0;
     position: absolute;
-    left: 90%;
+    right: 8%;
     float: right;
 }
 
 label {
     position: absolute;
     display: inline;
-    left: 40%;
-    top: 25px;
+    left: 70%;
+    top: 45%;
     padding: 19px;
     color: #920000d7;
     border: #000000;
@@ -82,11 +82,10 @@ article p {
     position: relative;
     text-align: justify;
     box-flex: left;
-    margin: 2%;
     width: auto;
     height: auto;
     left: 8%;
-    top: 20px;
+    top: 10px;
     display: block;
     float: left;
 }
@@ -95,11 +94,10 @@ article img {
     display: inline-block;
     position: relative;
     float: right;
-    width: 500px;
+    width: 600px;
     height: 300px;
     right: 40%;
     top: 45px;
-    padding-top: 0;
 }
 
 .hover:hover {
@@ -124,13 +122,14 @@ article img {
     padding-top: 15px;
     padding-bottom: 10px;
     font-size: 1em;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    left: 4%;
+    left: 2%;
     text-align: left;
     text-decoration: underline;
-    bottom: 4em;
+    bottom: 70%;
     float: left;
 }
 
@@ -141,12 +140,14 @@ article img {
     position: absolute;
     text-align: right;
     font-size: 1em;
-    right: 4%;
+    font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+    right: 2%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 0;
     text-decoration: underline;
-    bottom: 4em;
+    bottom: 90%;
+    float: left;
 }
 
 #footer button {
@@ -155,7 +156,7 @@ article img {
     display: block;
     bottom: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight 900;
     letter-spacing: 4px;
     color: #920000d7;
@@ -176,4 +177,6 @@ article img {
     background-color: #ffffff;
 }
 
-#audio {}
+#audio {
+    cursor: crosshair;
+}
