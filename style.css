@@ -148,7 +148,7 @@ article img {
 }
 
 a:link {
-    font: #920000d7;
+    font: #000000;
     text-decoration: none;
 }
 
@@ -181,6 +181,10 @@ a:link {
     text-decoration: underline;
     bottom: 70%;
     float: left;
+}
+
+p {
+    align: left;
 }
 
 .front_right {
