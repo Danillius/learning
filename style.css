@@ -67,8 +67,20 @@ aside {
 
 aside ol {
     height: 100%;
-    position: absolute;
+    position: relative;
     width: 300px;
+    top: 10%;
+    float: left;
+}
+
+aside ol lh {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bolder;
+    float: left;
+    text-align: justify;
+    display: inline-block;
+    padding-bottom: 15px;
+    left: 1%;
 }
 
 article {
@@ -79,10 +91,10 @@ article {
     float: left;
 }
 
-.Lane {
+.Lane span {
     float: right;
     display: block;
-    left: 30%;
+    right: 2%;
     top: 15%;
     position: relative;
 }
@@ -96,7 +108,6 @@ article p {
     left: 8%;
     top: 10px;
     display: block;
-    float: left;
 }
 
 article img {
@@ -105,13 +116,14 @@ article img {
     float: right;
     width: 600px;
     height: 300px;
-    right: 40%;
+    right: 0;
     top: 45px;
 }
 
 .hover:hover {
-    color: indigo;
+    color: #920000d7;
     cursor: pointer;
+    point
 }
 
 #footer {
