@@ -7,6 +7,9 @@ body {
     */
 }
 
+
+/* Header description */
+
 header {
     height: 60px;
     width: 97.9%;
@@ -56,6 +59,9 @@ label {
     border: #000000;
 }
 
+
+/* Left block description */
+
 aside {
     float: left;
     border: 1px, solid, crimson;
@@ -79,9 +85,13 @@ aside ol lh {
     float: left;
     text-align: justify;
     display: inline-block;
-    padding-bottom: 15px;
-    left: 1%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    left: 10%;
 }
+
+
+/* Central block description */
 
 article {
     position: absolute;
@@ -91,12 +101,21 @@ article {
     float: left;
 }
 
-.Lane span {
+article span {
     float: right;
-    display: block;
-    right: 2%;
-    top: 15%;
+    left: 72%;
+    right: 7%;
+    top: 80%;
     position: relative;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #920000d7;
+    margin: 0;
+}
+
+.preceptor {
+    display: inline-block;
+    float: right;
 }
 
 article p {
@@ -120,11 +139,21 @@ article img {
     top: 45px;
 }
 
+
+/*Pseudo CLass */
+
 .hover:hover {
     color: #920000d7;
     cursor: pointer;
-    point
 }
+
+a:link {
+    font: #920000d7;
+    text-decoration: none;
+}
+
+
+/* Footer description */
 
 #footer {
     height: 10%;

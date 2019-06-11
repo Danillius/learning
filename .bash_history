@@ -44,3 +44,8 @@ git status
 git add index.html
 git commit -am "Nothing special"
 git push origin "development"
+git status
+git add index.html
+git add style.css
+git commit -am "805 completed"
+git push origin "development"
