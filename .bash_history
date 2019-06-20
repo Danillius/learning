@@ -49,3 +49,41 @@ git add index.html
 git add style.css
 git commit -am "805 completed"
 git push origin "development"
+git status
+git add index.html
+git add style.css
+git commit -am "More URLs"
+git push origin "development"
+git add style.css
+git add index.html
+git status
+git commit -am "Code tidy"
+git push origin "development"
+git add index.html
+git add style.css
+git commit -am "CommitCool[C"
+git reset --hard HEAD~1
+git status
+git commit -am "Tidy" 
+git push origin "development"
+git status
+git show-ref -h HEAD
+git reset --hard HEAD^
+git show-ref -h HEAD
+git status
+git pull origin "development"
+git status
+git add style.css
+git add index.html
+git status
+git fsck --lost-found
+git reflog
+git status
+git reflog
+пше ыефегы
+git status
+git show rev
+git show
+git status
+git show rev
+git show
