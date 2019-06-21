@@ -72,30 +72,35 @@ label {
 aside {
     float: left;
     border: 1px, solid, crimson;
-    width: 10%;
     max-width: 768px;
-    height: 15%;
+    top: 2%;
+    left: 2%;
+    height: 50%;
     text-align: justify;
     position: relative;
+    @media screen and (min-width: 100px) and (max-width: 768px) {
+        width: 20%;
+    }
 }
 
-aside ol {
+.signs {
     position: absolute;
-    width: 300px;
-    top: 10%;
+    width: 400px;
+    top: 45%;
     float: left;
     text-decoration-style: wavy;
-    -moz-text-decoration-style: wavy;
+    -moz-text-decoration-style: ;
 }
 
 aside ol lh {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font: bolder;
     text-align: justify;
-    position: relative;
-    display: inline-block;
+    position: absolute;
+    display: block;
     padding-bottom: 30px;
     padding-top: 35px;
+    bottom: 100%;
     left: 10%;
 }
 
@@ -142,18 +147,20 @@ article span {
 .danger {
     position: absolute;
     text-align: justify;
-    left: 275px;
+    left: 300px;
     top: -50px;
     display: block;
-    height: 200px;
+    height: 300px;
+    width: 800px;
+    left: 20%;
 }
 
 article img {
     display: inline-block;
     position: absolute;
     opacity: 0.5;
-    width: 600px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
     right: 0;
     top: 80px;
     bottom: 40%;
@@ -198,16 +205,18 @@ a:link {
 }
 
 .front_left {
-    display: inline-block;
+    display: block;
     font-size: 1em;
     font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
     position: absolute;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
     left: 2%;
     width: 500px;
+    height: 10%;
     text-decoration: underline;
-    bottom: 70%;
+    bottom: 90%;
     height: 100px;
 }
 
@@ -253,13 +262,12 @@ p {
     -o-border-radius: 15px 15px 15px 0px;
 }
 
-
-}
 #footer button:hover {
     cursor: pointer;
     color: #000000;
     background-color: #ffffff;
 }
+
 #audio {
     cursor: crosshair;
 }

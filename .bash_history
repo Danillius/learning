@@ -87,3 +87,11 @@ git show
 git status
 git show rev
 git show
+git status
+git add index.html
+git add style.css
+git commit -am "Except the width limit"
+git pull origin "development"
+git status
+git push "development"
+git push origin "development"
