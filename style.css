@@ -8,6 +8,13 @@ html {
     */
 }
 
+@media only screen and (max-width:768px) {
+    aside,
+    .front_left {
+        display: none;
+    }
+}
+
 
 /* Header description */
 
@@ -78,9 +85,6 @@ aside {
     height: 50%;
     text-align: justify;
     position: relative;
-    @media screen and (min-width: 100px) and (max-width: 768px) {
-        width: 20%;
-    }
 }
 
 .signs {
@@ -192,7 +196,7 @@ a:link {
 /* Footer description */
 
 #footer {
-    height: 10%;
+    height: 12%;
     width: 100%;
     display: block;
     margin-bottom: 0;
@@ -241,11 +245,11 @@ p {
     bottom: 90%;
 }
 
-#footer button {
+aside button {
     position: absolute;
     left: 0;
     display: block;
-    bottom: 0;
+    bottom: -35%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.4em;
     font-weight: 900;
@@ -262,7 +266,7 @@ p {
     -o-border-radius: 15px 15px 15px 0px;
 }
 
-#footer button:hover {
+aside button:hover {
     cursor: pointer;
     color: #000000;
     background-color: #ffffff;
