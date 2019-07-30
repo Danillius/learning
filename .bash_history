@@ -102,3 +102,21 @@ git commit -am "Blocks"
 git push origin "development"
 git status
 git checkout -b "flex"
+git status
+git add Flex/
+git status
+git status
+git add Flex/
+git status
+git commit -am "Flex"
+git push origin
+git push origin "flex'
+
+git push origin "flex"
+git status
+git add Flex/
+git status
+git status
+git status
+git add index.html
+git add style.css
