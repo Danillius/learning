@@ -120,3 +120,6 @@ git status
 git status
 git add index.html
 git add style.css
+git status
+git commit -am "Flex header"
+git push origin "flex"
